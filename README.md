@@ -9,6 +9,16 @@ TruthLens AI is a Machine Learning web application that predicts whether a news 
 Streamlit App:
 https://truthlens-ai-nzhzfbrcgl6zz2k7cl6syf.streamlit.app
 
+## 📸 Screenshots
+
+### Home Page
+
+![Home](images/home.png)
+
+### Prediction Result
+
+![Prediction](images/prediction.png)
+
 ## 🚀 Features
 
 - Detects Real and Fake News
