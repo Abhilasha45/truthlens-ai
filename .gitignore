@@ -1,0 +1,6 @@
+myenv/ 
+__pycache__/ 
+.ipynb_checkpoints/ 
+*.pyc 
+data/news.csv
+data/news.csv
