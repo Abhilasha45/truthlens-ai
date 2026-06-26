@@ -1,70 +1,76 @@
-# Fake News Detector 
+##📰 TruthLens AI
 
-This is a simple Machine Learning project that predicts whether a given news statement is Real or Fake.
+AI-Powered News Verification System
 
-The project is built using Python, Scikit-Learn and Streamlit. It uses TF-IDF Vectorization for converting text into numerical features and Logistic Regression for classification.
+TruthLens AI is a Machine Learning web application that predicts whether a news article is likely Real or Fake using Natural Language Processing (NLP).
 
-## Features
+##🌐 Live Demo
+
+Streamlit App:
+https://truthlens-ai-nzhzfbrcgl6zz2k7cl6syf.streamlit.app
+
+##🚀 Features
 
 - Detects Real and Fake News
-- User-friendly Streamlit interface
+- AI-powered prediction using Machine Learning
+- TF-IDF text vectorization
+- Logistic Regression classifier
 - Confidence score display
-- TF-IDF based text processing
-- Logistic Regression classification model
+- Interactive Streamlit web interface
+- Responsive and easy-to-use UI
 
-## Technologies Used
+##🛠️ Tech Stack
 
 - Python
+- Streamlit
+- Scikit-learn
 - Pandas
 - NumPy
-- Scikit-Learn
-- Streamlit
 - Pickle
+- Git & GitHub
 
-## Project Structure
+##📂 Project Structure
 
-FAKE_NEWS_DETECTOR
+truthlens-ai/
+│── data/
+│── models/
+│── notebook/
+│   └── app/
+│       └── app.py
+│── requirements.txt
+│── README.md
 
-├── data
+##▶️ Run Locally
 
-│   └── news.csv
+pip install -r requirements.txt
+python -m streamlit run notebook/app/app.py
 
-├── models
+##📊 Machine Learning Pipeline
 
-│   ├── logistic_regression_model.pkl
+Dataset
+        ↓
+Data Preprocessing
+        ↓
+TF-IDF Vectorization
+        ↓
+Logistic Regression
+        ↓
+Prediction
+        ↓
+Confidence Score
 
-│   └── tfidf_vectorizer.pkl
+##🎯 Future Enhancements
 
-├── notebook
+- Improve model accuracy with larger datasets
+- Compare multiple ML models
+- Add prediction history
+- Add news category classification
+- Enhance UI and visual analytics
 
-│   ├── app
-
-│   │   └── app.py
-
-│   └── eda.ipynb
-
-└── README.md
-
-## How It Works
-
-1. User enters a news statement.
-2. The text is converted into TF-IDF features.
-3. The trained Logistic Regression model makes a prediction.
-4. The application displays whether the news is Real or Fake along with a confidence score.
-
-## Limitation
-
-This model predicts based on patterns learned from the training dataset. It does not have access to current real-world events or live news verification.
-
-## Future Improvements
-
-- Use larger and more recent datasets
-- Try advanced models such as Random Forest or BERT
-- Add live news verification using APIs
-- Improve prediction accuracy
-
-## Project By
+##👩‍💻 Project By
 
 Abhilasha Mishra
 
-B.Tech CSE (AI)
+B.Tech Computer Science (AI)
+
+AKTU
