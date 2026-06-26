@@ -29,16 +29,23 @@ https://truthlens-ai-nzhzfbrcgl6zz2k7cl6syf.streamlit.app
 - Pickle
 - Git & GitHub
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 truthlens-ai/
-│── data/
-│── models/
-│── notebook/
-│   └── app/
-│       └── app.py
-│── requirements.txt
-│── README.md
+├── data/
+│   └── news.csv
+├── models/
+│   ├── logistic_regression_model.pkl
+│   └── tfidf_vectorizer.pkl
+├── notebook/
+│   ├── app/
+│   │   └── app.py
+│   └── eda.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 ## ▶️ Run Locally
 
