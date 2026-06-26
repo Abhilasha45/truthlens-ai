@@ -1,15 +1,15 @@
-##📰 TruthLens AI
+## 📰 TruthLens AI
 
 AI-Powered News Verification System
 
 TruthLens AI is a Machine Learning web application that predicts whether a news article is likely Real or Fake using Natural Language Processing (NLP).
 
-##🌐 Live Demo
+## 🌐 Live Demo
 
 Streamlit App:
 https://truthlens-ai-nzhzfbrcgl6zz2k7cl6syf.streamlit.app
 
-##🚀 Features
+## 🚀 Features
 
 - Detects Real and Fake News
 - AI-powered prediction using Machine Learning
@@ -19,7 +19,7 @@ https://truthlens-ai-nzhzfbrcgl6zz2k7cl6syf.streamlit.app
 - Interactive Streamlit web interface
 - Responsive and easy-to-use UI
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
@@ -29,7 +29,7 @@ https://truthlens-ai-nzhzfbrcgl6zz2k7cl6syf.streamlit.app
 - Pickle
 - Git & GitHub
 
-##📂 Project Structure
+## 📂 Project Structure
 
 truthlens-ai/
 │── data/
@@ -40,12 +40,12 @@ truthlens-ai/
 │── requirements.txt
 │── README.md
 
-##▶️ Run Locally
+## ▶️ Run Locally
 
 pip install -r requirements.txt
 python -m streamlit run notebook/app/app.py
 
-##📊 Machine Learning Pipeline
+## 📊 Machine Learning Pipeline
 
 Dataset
         ↓
@@ -59,7 +59,7 @@ Prediction
         ↓
 Confidence Score
 
-##🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 - Improve model accuracy with larger datasets
 - Compare multiple ML models
@@ -67,7 +67,7 @@ Confidence Score
 - Add news category classification
 - Enhance UI and visual analytics
 
-##👩‍💻 Project By
+## 👩‍💻 Project By
 
 Abhilasha Mishra
 
